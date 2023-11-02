@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleven-7 Sign:up</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: cursive;
+            font-size: 30px;
+            color: rgb(255, 136, 0);
+        }
+
+        .divu1 {
+            box-shadow: 0px 4px 20px rgba(74, 73, 79, 0.2);
+            width: 600px;
+            text-align: center;
+            margin: 150px;
+            margin-left: 450px;
+            border-radius: 5px;
+        }
+
+        .para1 {
+            background-color: #F7EDE8;
+            padding: 20px;
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+
+
+        .aq1 {
+            text-align: left;
+        }
+
+        .tutu {
+            text-align: justify;
+        }
+
+        input {
+            padding: 15px;
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid boxx1">
+        <div class="divu1">
+            <h1>Eleven-7</h1>
+            <p class="para1">Prescription Refill Form </p>
+            <div>
+                <form method="post" action="/context/">
+                    {% csrf_token %}
+                    Name:<input type="text" name="name" value="">
+                    Email:<input type="email" name="email" value="">
+                    Phone:<input type="number" name="phone" value="">
+                    Issues:<input type="text" name="content" value="">
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+        </div>
+        <p class="tutu">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est facere blanditiis impedit
+            architecto,
+            delectus voluptas quaerat et quos voluptate modi, autem asperiores itaque maxime suscipit accusamus. Beatae
+            ipsum, impedit dolorum odio dignissimos mollitia nam maiores unde necessitatibus, at esse, distinctio qui
+            error
+            ut ipsam magnam dolor laborum eveniet explicabo asperiores nesciunt eum suscipit nulla? Repudiandae ipsum
+            molestiae itaque excepturi fugit voluptates ex saepe? Necessitatibus rem, neque exercitationem dicta quidem
+            quam
+            veniam corporis voluptate blanditiis id quia consequatur earum iure est architecto quibusdam ut assumenda
+            beatae
+            laboriosam provident? Doloremque optio veritatis excepturi quasi alias exercitationem. Eos et nisi harum
+            fuga
+            excepturi fugit commodi. Quasi asperiores illo illum sapiente vitae quae eligendi, dolores cum velit nemo!
+            Officiis voluptatibus cupiditate eligendi quibusdam, provident, perferendis dolores sit beatae saepe
+            corporis
+            nihil fugiat ipsum vel tempora cumque inventore distinctio rerum nesciunt temporibus quod blanditiis eaque?
+            Architecto culpa sequi, accusamus suscipit doloremque ipsa adipisci cum ipsam itaque delectus sed sapiente
+            aliquid repudiandae optio quos, quo blanditiis. Nisi asperiores esse voluptas tempore rem? Eum vel
+            voluptatum
+            laudantium placeat. Minima, fuga sed blanditiis labore cum omnis vero, animi autem nam quae sapiente fugit
+            id
+            totam sequi accusantium temporibus beatae culpa? Maiores eaque id sapiente voluptates eum consectetur
+            provident
+            voluptatum eveniet ullam dolor distinctio atque, debitis accusamus corrupti explicabo? Autem nemo ea
+            provident
+            accusantium consectetur unde maxime iste atque temporibus, reiciendis officia ratione quidem sapiente,
+            libero
+            dolor, quasi totam! Modi ullam, beatae blanditiis rem esse deserunt rerum numquam alias nihil, nobis
+            consequuntur vitae recusandae saepe, vero dolore sunt facilis qui quod. Ipsa reprehenderit, iste harum
+            magnam
+            provident, eveniet excepturi corporis, quo veniam atque nulla voluptate inventore non perferendis
+            praesentium
+            quis hic. Qui magni provident maxime necessitatibus ex obcaecati, atque voluptates, explicabo at fugit ad
+            aliquam cum quam? Animi, deserunt? Ipsam modi voluptatibus repellendus qui maxime dolores obcaecati eum
+            sapiente!</p>
+        <br>
+    </div>
+</body>
+
+</html>

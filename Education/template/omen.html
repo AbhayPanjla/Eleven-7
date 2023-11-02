@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omen - Form</title>
+</head>
+
+<body>
+    <h1>Omen-Registration </h1>
+    <div class="container">
+        <form action="/omen/" method="post">
+        {% csrf_token %}
+
+            Name:
+            <input type="text" name="name"> 
+            Email:
+            <input type="email" name="email">
+            Phone:
+            <input type="phone" name="phone">
+            <button type="submit">Submit</button>
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
